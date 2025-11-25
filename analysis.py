@@ -5,3 +5,6 @@ def load_data(filename):
 
 def analyze_data(data):
  return data.describe()
+
+def visualize_data(data):
+ return data.plot(kind='bar')
